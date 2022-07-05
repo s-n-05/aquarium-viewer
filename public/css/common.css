@@ -1,0 +1,388 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.footer-container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+img {
+    /* border: solid 10px #f0f0f0; */
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-top-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 2.5px;
+    border-right-width: 2.5px;
+}
+
+.bg-lightgray {
+    background-color: #F7F9F9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text_indent {
+    text-indent: 1em;
+}
+
+.swal2-title {
+    font-size: 1.4rem !important;
+}
+
+h1 {
+    border-bottom: solid 2px black;
+}
+
+.balloon {
+    position: relative;
+    margin: 2em 0 2em 40px;
+    padding: 15px;
+    background: #FCD69E;
+    border-radius: 30px;
+}
+
+.balloon:before {
+    content: "";
+    position: absolute;
+    left: -38px;
+    width: 13px;
+    height: 12px;
+    bottom: 0;
+    background: #FCD69E;
+    border-radius: 50%;
+}
+
+.balloon:after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    width: 20px;
+    height: 18px;
+    bottom: 3px;
+    background: #fff0c6;
+    border-radius: 50%;
+}
+
+.balloon p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* // 大デバイス（デスクトップ, 1200px 未満） */
+
+@media (min-width: 992px) {
+    .title {
+        font-size: 7.0rem;
+    }
+}
+
+
+/* // 中デバイス（タブレット, 992px 未満） */
+
+@media (max-width: 991.98px) {
+    .title {
+        font-size: 4.0rem;
+    }
+}
+
+
+/* // 小デバイス（横向きモバイル, 768px 未満） */
+
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 2.0rem;
+    }
+}
+
+
+/* // 極小デバイス（縦向きモバイル, 576px 未満） */
+
+@media (max-width: 575.98px) {
+    .title {
+        font-size: 1.0rem;
+    }
+}
+
+.loader {
+    color: #a9a9a9;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+ul.list-header {
+    padding: 0 0 0 1em;
+    position: relative;
+}
+
+ul.list-header li {
+    list-style-type: none;
+    padding: 0.5em 0 0.5em 0.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+ul.list-header li:before {
+    font-family: 'Material Icons';
+    content: '\e5e1';
+    color: #ffffff;
+    position: absolute;
+    left: -0.1em;
+}
+
+.gradient {
+    background: -moz-linear-gradient(top right, #65D8E9, #3498db, #08009c);
+    background: -webkit-linear-gradient(top right, #65D8E9, #3498db, #08009c);
+    background: linear-gradient(to bottom left, #65D8E9, #3498db, #08009c);
+}
+
+.bg-gradient-main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom left, #65D8E9, #3498db, #010c2c, #fff0c6);
+    background-size: 200% 200%;
+    animation: bggradient 17s ease infinite;
+}
+
+@keyframes bggradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.pagination {
+    display: none!important;
+}
+
+.bg-lb {
+    background: #e4f2f7;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.card {
+    /* border-radius: 2rem!important; */
+    border: 0.5px solid rgb(224 224 224 / 13%)!important;
+}
+
+p.hashtag {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.fixed-content {
+    position: fixed;
+    right: 0px;
+    top: 30px;
+    z-index: 10000;
+}
+
+.card-img-box {
+    position: relative;
+}
+
+.card-img-box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.card-img-box a:link{
+    color: #fff;
+}
+.card-img-box   a:visited{
+    color: #fff;
+}
+.card-img-box   a:hover{
+    color: #fff;
+}
+.card-img-box  a:active{
+    color: #fff;
+}
+  
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+}
+
+#ribbon-container {
+    position: absolute;
+    top: -16px;
+    right: -15px;
+    overflow: visible;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#ribbon-container:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-top: 29px solid rgba(0, 0, 0, .3);
+    border-bottom: 29px solid rgba(0, 0, 0, .3);
+    border-right: 29px solid rgba(0, 0, 0, .3);
+    border-left: 29px solid transparent;
+}
+
+#ribbon-container:after {
+    content: "";
+    height: 3px;
+    background: rgba(0, 0, 0, .3);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 58px;
+    right: 3px;
+}
+
+#ribbon-container a {
+    display: block;
+    padding: 20px;
+    position: relative;
+    background: #0089d0;
+    overflow: visible;
+    height: 58px;
+    margin-left: 29px;
+    color: #fff;
+    text-decoration: none;
+    border-top-right-radius: calc(0.55rem - 1px);
+}
+
+#ribbon-container a:after {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    border-top: 15px solid #004a70;
+    border-right: 15px solid transparent;
+}
+
+#ribbon-container a:before {
+    /* this creates the "forked" part of our ribbon */
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    border-top: 29px solid #0089d0;
+    border-bottom: 29px solid #0089d0;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+}
+
+#ribbon-container a:hover {
+    background: #009ff1;
+}
+
+#ribbon-container a:hover:before {
+    /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
+    border-top: 29px solid #009ff1;
+    border-bottom: 29px solid #009ff1;
+}

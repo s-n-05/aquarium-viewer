@@ -1,0 +1,14 @@
+$text-color: #222;
+$primary: rgb(13, 52, 156);
+$border-radius:.55rem;
+$headings-line-height: 1.5;
+$line-height-base:1.65;
+$letter-spacing:.1em;
+$modal-inner-padding: 30px;
+// Bootstrap本体
+@import "bootstrap/bootstrap.scss";
+// .card-img,
+// .card-img-top {
+//     border-bottom-left-radius: calc(0.55rem - 1px);
+//     border-bottom-right-radius: calc(0.55rem - 1px);
+// }
