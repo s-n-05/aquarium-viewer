@@ -1,6 +1,3 @@
-<p align="center">
-aquarium-viewer
-</p>
 
 ## サービス内容
 

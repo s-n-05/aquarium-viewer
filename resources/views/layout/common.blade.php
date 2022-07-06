@@ -35,7 +35,7 @@
               <a id="qr-link" class="btn btn-sm btn-primary">
                 スマホ用QRコードを表示
               </a>
-              <a id="qr-link" class="btn btn-sm btn-secondary" href="https://github.com/seiya-nakagawa/aquarium-viewer">
+              <a id="qr-link" class="btn btn-sm btn-secondary" href="https://github.com/s-n-05/aquarium-viewer">
                 GitHub
               </a>
             </div>
